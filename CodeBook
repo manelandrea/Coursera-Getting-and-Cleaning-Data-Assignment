@@ -1,8 +1,8 @@
-# Code Book
+#Code Book
 
 This code book reference to the variables
 
-## Activity Labels
+##Activity Labels
 
 * `WALKING` : subject was walking during the test
 * `WALKING_UPSTAIRS` : subject was walking up a staircase during the test
