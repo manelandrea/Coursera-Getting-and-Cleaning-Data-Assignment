@@ -1,8 +1,10 @@
 # Coursera Getting and Cleaning Data Assignment
 
 
-Repository for the Getting and Cleaning Data Coursera assignment.
-The R script, `run_analysis.R`, does the following:
+Here are the for the Getting and Cleaning Data Coursera assignment:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+You should create one R script called run_analysis.R that does the following.
 
 1. Download the dataset if it does not exist in your working directory
 2. Load the training and test datasets
@@ -15,5 +17,8 @@ The R script, `run_analysis.R`, does the following:
 6. Converts the `activity` and `subject` columns into factors
 7. Creates a tidy dataset that consists of the average (mean) value of each
    variable for each subject and activity pair.
+   
+   
+   
 
 The end result is shown in the file `TidyData.txt`.
