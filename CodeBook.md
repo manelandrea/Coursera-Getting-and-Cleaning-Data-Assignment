@@ -2,8 +2,9 @@
 
 This code book reference to the variables used in creating the TidyData.txt
 
-## Activity Labels
-
+## Subject and Activity
+ - Subject: the integer subject ID.
+ - Activity:  The type of activity performed when the corresponding measurements were taken
 * `1` `WALKING` : subject was walking during the test
 * `2` `WALKING_UPSTAIRS` : subject was walking up a staircase during the test
 * `3` `WALKING_DOWNSTAIRS` : subject was walking down a staircase during the test
@@ -11,20 +12,84 @@ This code book reference to the variables used in creating the TidyData.txt
 * `5` `STANDING` : subject was standing during the test
 * `6` `LAYING` : subject was laying down during the test
 
-## Variables
-* `subject_train` : loaded dataset from subject_train.txt
-* `y_train` : loaded dataset from y_train.txt
-* `x_train` : loaded dataset from X_train.txt
-* `subject_test` : loaded dataset from subject_test.txt
-* `y_test` : loaded dataset from y_test.txt
-* `x_test` : loaded dataset from x_test.txt
-* `subject_merge` : merged subject train and test
-* `y_merge` : merged y train and test
-* `x_merge` : merged x train and test
-* `completeData` : merged subject, x and y datasets
-* `meanSTD` : extract the column indices that have either mean or std in them.
-* `cols` : add activity and subject columns to the list 
-* `newData` : create newData with the selected columns in cols
-* `featureNames`: load features table
-* `activityLabels`: load activity labels
-* `tidyData` : tidy data set with the average of each variable for each activity and each subject.
+## Measurements
+* `tBodyAccMeanX`
+* `tBodyAccMeanY`
+* `tBodyAccMeanZ`
+* `tBodyAccStdX`
+* `tBodyAccStdY`
+* `tBodyAccStdZ`
+* `tGravityAccMeanX`
+* `tGravityAccMeanY`
+* `tGravityAccMeanZ`
+* `tGravityAccStdX`
+* `tGravityAccStdY`
+* `tGravityAccStdZ`
+* `tBodyAccJerkMeanX`
+* `tBodyAccJerkMeanY`
+* `tBodyAccJerkMeanZ`
+* `tBodyAccJerkStdX`
+* `tBodyAccJerkStdY`
+* `tBodyAccJerkStdZ`
+* `tBodyGyroMeanX`
+* `tBodyGyroMeanY`
+* `tBodyGyroMeanZ`
+* `tBodyGyroStdX`
+* `tBodyGyroStdY`
+* `tBodyGyroStdZ`
+* `tBodyGyroJerkMeanX`
+* `tBodyGyroJerkMeanY`
+* `tBodyGyroJerkMeanZ`
+* `tBodyGyroJerkStdX`
+* `tBodyGyroJerkStdY`
+* `tBodyGyroJerkStdZ`
+* `tBodyAccMagMean`
+* `tBodyAccMagStd`
+* `tGravityAccMagMean`
+* `tGravityAccMagStd`
+* `tBodyAccJerkMagMean`
+* `tBodyAccJerkMagStd`
+* `tBodyGyroMagMean`
+* `tBodyGyroMagStd`
+* `tBodyGyroJerkMagMean`
+* `tBodyGyroJerkMagStd`
+* `fBodyAccMeanX`
+* `fBodyAccMeanY`
+* `fBodyAccMeanZ`
+* `fBodyAccStdX`
+* `fBodyAccStdY`
+* `fBodyAccStdZ`
+* `fBodyAccMeanFreqX`
+* `fBodyAccMeanFreqY`
+* `fBodyAccMeanFreqZ`
+* `fBodyAccJerkMeanX`
+* `fBodyAccJerkMeanY`
+* `fBodyAccJerkMeanZ`
+* `fBodyAccJerkStdX`
+* `fBodyAccJerkStdY`
+* `fBodyAccJerkStdZ`
+* `fBodyAccJerkMeanFreqX`
+* `fBodyAccJerkMeanFreqY`
+* `fBodyAccJerkMeanFreqZ`
+* `fBodyGyroMeanX`
+* `fBodyGyroMeanY`
+* `fBodyGyroMeanZ`
+* `fBodyGyroStdX`
+* `fBodyGyroStdY`
+* `fBodyGyroStdZ`
+* `fBodyGyroMeanFreqX`
+* `fBodyGyroMeanFreqY`
+* `fBodyGyroMeanFreqZ`
+* `fBodyAccMagMean`
+* `fBodyAccMagStd`
+* `fBodyAccMagMeanFreq`
+* `fBodyBodyAccJerkMagMean`
+* `fBodyBodyAccJerkMagStd`
+* `fBodyBodyAccJerkMagMeanFreq`
+* `fBodyBodyGyroMagMean`
+* `fBodyBodyGyroMagStd`
+* `fBodyBodyGyroMagMeanFreq`
+* `fBodyBodyGyroJerkMagMean`
+* `fBodyBodyGyroJerkMagStd`
+* `fBodyBodyGyroJerkMagMeanFreq`
+
